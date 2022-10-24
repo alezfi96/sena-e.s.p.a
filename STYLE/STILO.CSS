@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+header{
+    background-color: white;
+    height: 35vh; 
+    display: flex; 
+    justify-content: right;
+    background-image: url("../IMGNS/personas-corazones_1150-49001.jpg");
+    background-size: 100% 55%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+
+
+}
+
+
+nav{
+    background-color: rgb(13, 70, 155);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+   
+}
+a{
+    color: black;
+    
+
+}
+h1{
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+section{
+    background-color: aliceblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+
+   
+}
+
