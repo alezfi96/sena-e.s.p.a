@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: azure;
+    height: 30vh;
+    text-align: right;
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: aqua;
+    color: rgb(19, 11, 11);
+}
+
+
+nav {
+   background-color: royalblue;
+    height: 10vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin: 10px;
+   
+}
+
+
+
+.info {
+    background-color: bisque;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+.art1 {
+    font-size: 18px;
+    padding: 15px;
+    width: 33%;
+
+
+}
+
+.art2 {
+    font-size: 18px;
+    padding: 15px;
+    width: 33%;
+}
+
+.art3 {
+    font-size: 18px;
+    padding: 15px;
+    width: 33%;
+}
